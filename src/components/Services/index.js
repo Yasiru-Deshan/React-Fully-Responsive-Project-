@@ -10,7 +10,7 @@ import {
          ServicesCard,
          ServicesIcon,
          Servicesp
-} from './ServiceElements'
+} from './ServiceElements';
 
 const Services = () => {
     return (

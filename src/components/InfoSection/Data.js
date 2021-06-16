@@ -33,36 +33,19 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-    id:'',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    id:'signup',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Premium Bank',
     headline: 'Unlimited Transactions with zero fees',
     description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-    buttonLabel: 'Get Started',
+    buttonLabel: 'Start Now',
     imgStart: false,
     img: require('../../images/svg-3.svg').default,
     alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 }
 
-
-export const homeObjFour = {
-    id:'signup',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc:true,
-    topLine: 'Unlimited Access',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-    buttonLabel: 'Learn More',
-    imgStart: true,
-    img: require('../../images/svg-4.svg').default,
-    alt: 'Girllap',
-    dark: true,
-    primary: true,
-    darkText: false
-}
